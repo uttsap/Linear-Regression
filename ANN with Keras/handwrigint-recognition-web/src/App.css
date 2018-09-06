@@ -1,0 +1,78 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 28px;
+    margin: 10px
+}
+.bg-white{
+    background-color: white;
+}
+.navbar{
+   min-height: 80px;
+
+}
+.App-title {
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.custom-container {
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: -moz-linear-gradient(270deg, #2B32B2, #1488CC 100%);
+    background-image: -webkit-linear-gradient(270deg, #2B32B2, #1488CC 100%);
+    background-image: -ms-linear-gradient(270deg, #2B32B2, #1488CC 100%);
+}
+
+.horizontal-line {
+    background-color: rgb(206, 206, 206);
+}
+
+.custom-form {
+    background-color: white;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.img-thumbnail {
+    margin: 20px;
+    max-width: 50%;
+}
+
+.btn-custom {
+    color: white;
+    background-image: -moz-linear-gradient(360deg, #2B32B2, #1488CC 50%);
+    background-image: -webkit-linear-gradient(360deg, #2B32B2, #1488CC 50%);
+    background-image: -ms-linear-gradient(360deg, #2B32B2, #1488CC 50%);
+    min-width: 100%;
+    min-height: 60px;
+    border-radius: 0%;
+}
+
+.btn-custom:hover {
+    color: white;
+    background-image: -moz-linear-gradient(120deg, #2B32B2, #1488CC 50%);
+    background-image: -webkit-linear-gradient(120deg, #2B32B2, #1488CC 50%);
+    background-image: -ms-linear-gradient(120deg, #2B32B2, #1488CC 50%);
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.custom {
+    min-width: 500px;
+}
